@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  api:
+    image: alan0428a/api:1.0
+  ui:
+    image: alan0428a/react-nginx:1.3
+    ports: 
+        - "8080:80"
